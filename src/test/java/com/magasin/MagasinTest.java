@@ -6,6 +6,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class MagasinTest {
 
+    private void listeATester(){
+        
+    }
+
+
+
     @Test
     void foo() {
         Item[] items = new Item[] { new Item("foo", 0, 0) };
