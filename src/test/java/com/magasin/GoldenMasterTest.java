@@ -89,7 +89,7 @@ public class GoldenMasterTest {
         String timestamp = LocalDateTime.now()
                 .format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
 
-        String filePath = "src/test/java/resources/golden_master_" + timestamp + ".txt";
+        String filePath = "src/test/resources/golden_master_" + timestamp + ".txt";
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
             writer.write(output);
